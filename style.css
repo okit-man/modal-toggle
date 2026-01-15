@@ -7,7 +7,7 @@ body {
     background: url('./forest-7774205_640.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    min-width: 100vw;
+    min-height: 100vw;
 }
 .hero {
     display: grid;
