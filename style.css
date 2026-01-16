@@ -112,8 +112,9 @@ h3 {
         width: 80%;
         left: 10%;
     }
-    .body {
-        /* height: 150vh; */
+    h1
+    h3 {
+        font-size: 2rem;
     }
     
 
@@ -123,8 +124,10 @@ h3 {
         width: 90%;
         left: 5%;
     }
-    .body {
-        /* height: 200vh; */
+    h1
+    h3 {
+        font-size: 1.5rem;
+        letter-spacing: 0.1rem;
     }
 
 }
