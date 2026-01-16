@@ -7,7 +7,8 @@ body {
     background: url('./forest-7774205_640.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    min-height: 100vw;
+    /* height: 100vw; */
+    min-height: 100vh;
 }
 .hero {
     display: grid;
@@ -18,7 +19,7 @@ body {
     position: absolute;
     top: 22%;
     left: 30%;
-    box-shadow: rgba(0, 0, 0, 0.3);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
     border-radius: 0.5rem;
 }
 .banner {
@@ -111,13 +112,19 @@ h3 {
         width: 80%;
         left: 10%;
     }
-
+    .body {
+        /* height: 150vh; */
+    }
+    
 
 }
 @media screen and (max-width: 480px) {
     .hero, .model-overlay {
         width: 90%;
         left: 5%;
+    }
+    .body {
+        /* height: 200vh; */
     }
 
 }
